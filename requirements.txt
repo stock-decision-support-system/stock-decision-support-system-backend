@@ -1,0 +1,2 @@
+Django==5.0.1
+shioaji==1.2.1
