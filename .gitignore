@@ -27,3 +27,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+#module
+shioaji.log
+config.yaml
