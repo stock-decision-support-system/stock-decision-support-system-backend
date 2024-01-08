@@ -1,6 +1,8 @@
 # stock-decision-support-system-backend
 pull專案前建議將fork資料夾於防毒軟體設定例外
 在install django時防毒有跳出來掃描過
+config copy.yaml 複製一個砍掉空白建copy 然後輸入變數 密碼看群組
+底下的操作都是windows設定的版本 如果你是用mac的要自己google
 
 ## 專案成員
 | 分群 | 名稱 | 學號 |
@@ -14,12 +16,14 @@ pull專案前建議將fork資料夾於防毒軟體設定例外
 ## 環境變數
 加入這兩個到系統變數的"path"裡面
 <div style="color: red;">請使用3.11以下的python版本 永豐金不支援312==</div>
-C:\Users\user\AppData\Local\Programs\Python\你的版本\Scripts
-C:\Users\user\AppData\Local\Programs\Python\你的版本
+C:\Users\<你電腦名字>\AppData\Local\Programs\Python\你的版本\Scripts
+C:\Users\<你電腦名字>\AppData\Local\Programs\Python\你的版本
 看不懂可以google python環境變數
 
 ## 虛擬機
->python -m venv my_env 建虛擬機 注意版本
+先把我的my_env砍掉 那個虛擬機是吃絕對路徑 跟著指令重新下
+>python -m venv my_env # 建虛擬機 注意版本 
+要強制吃版本去建的話 照著你的環境變數 把建虛擬機的指令那個python 換成C:\Users\<你電腦名字>\AppData\Local\Programs\Python\你的版本\python.exe
 >my_env\Scripts\activate #進入虛擬機環境 
 >(my_env)>pip install -r requirements.txt #一次安裝所有套件
 >(my_env)>deactivate #退出虛擬機環境
