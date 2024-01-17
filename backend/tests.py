@@ -47,6 +47,7 @@ class ShioajiTestCase(TestCase):
             quote_type=sj.constant.QuoteType.Tick,
             version=sj.constant.QuoteVersion.v1,
         )
+        
 
     def test_order(self):
         api = sj.Shioaji(simulation=True)  # 模擬模式

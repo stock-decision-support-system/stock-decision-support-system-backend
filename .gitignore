@@ -14,9 +14,6 @@ media/
 # Ignore development-specific settings
 local_settings.py
 
-# Ignore production-specific settings
-settings.py
-
 # Ignore the virtual environment
 venv/
 my_env/
